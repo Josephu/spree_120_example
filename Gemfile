@@ -37,9 +37,15 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 gem 'spree', '1.2.0'
-gem 'spree_usa_epay'
-gem 'spree_skrill'
+#gem "spree_core", "~> 1.2.0"
+#gem "spree_cmd", "~> 1.2.0"
+#gem "spree_sample", "~> 1.2.0"
+#gem "spree_promo", "~> 1.2.0"
+#gem "spree_api", "~> 1.2.0"
+
 gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise'
 #gem 'spree_address_book', :git => 'git://github.com/romul/spree_address_book.git'
 gem "spree_advanced_reporting", :git => "git://github.com/greinacker/spree_advanced_reporting"
-
+gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git'
+gem 'spree_static_content', :git => 'git://github.com/spree/spree_static_content.git', :branch => '1-2-stable'
+gem 'spree_simple_dash', :git => 'git://github.com/spree/spree_simple_dash.git'
